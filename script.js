@@ -41,4 +41,4 @@ let firstName = "Cristina";
 let lastName = "Chifor";
 let separator = " ";
 let fullName = firstName + separator + lastName;
-console.log (`Numele me complet este ${fullName}`);
+console.log (`Numele meu complet este ${fullName}`);
