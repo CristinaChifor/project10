@@ -16,3 +16,21 @@ console.log (`Rezultatul sumei dintre ${numberA} plus ${numberB} este ${sum}`);
 let gradeC = 10;
 let gradeF= (gradeC * 9/5) +32;
 console.log (`Conversia dintre C si Fh este egala cu ${gradeF}`);
+
+
+// exercitiul 4 Atribuire de caracter
+
+const myName = "Cristina";
+console.log (`Hello ${myName}`);
+
+// Exerctiul 5 Numar par/ impar
+
+let checkedNumber = 24;
+let reminder = checkedNumber % 2;
+let isEven = reminder == 0;
+console.log (`Number ${checkedNumber} is even: ${isEven}`);
+
+checkedNumber = 25;
+reminder = checkedNumber % 2;
+isEven = reminder == 0;
+console.log (`Number ${checkedNumber} is even: ${isEven}`);
