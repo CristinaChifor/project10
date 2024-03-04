@@ -34,3 +34,11 @@ checkedNumber = 25;
 reminder = checkedNumber % 2;
 isEven = reminder == 0;
 console.log (`Number ${checkedNumber} is even: ${isEven}`);
+
+// Exercitiul 7 Concatenare
+
+let firstName = "Cristina";
+let lastName = "Chifor";
+let separator = " ";
+let fullName = firstName + separator + lastName;
+console.log (`Numele me complet este ${fullName}`);
