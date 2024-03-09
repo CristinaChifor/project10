@@ -137,14 +137,17 @@ let moreOrEqualComparison2 = w >= q;
 console.log(`${w} >= ${q} => ${moreOrEqualComparison2}`);
 
 let moreOrEqualComparison3 = q >= w;
-console.log(`${q} >= ${w} => ${moreOrEqualComparison2}`);
+console.log(`${q} >= ${w} => ${moreOrEqualComparison3}`);
+
+let moreOrEqualComparison4 = q > w;
+console.log(`${q} > ${w} => ${moreOrEqualComparison4}`);
 
 // Exercitiul 6 Declarați o variabilă pentru distanța în kilometri și convertește-o în mile distanceInKm * 0.621371
 
 let distanceInKm= 20;
 let distanceInMile = 0.621371 * distanceInKm;
 console.log(distanceInMile);
-console.log(`${distanceInKm} km este aechivalentul a ${distanceInMile} mile`);
+console.log(`${distanceInKm} km este echivalentul a ${distanceInMile} mile`);
 
 // Exercitiul 8 Atribuiți unui număr valoarea null și verificați tipul de date.
 
